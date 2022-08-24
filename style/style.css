@@ -22,7 +22,7 @@ body{
     flex-direction: column;
     justify-content:center ;
     align-items: center;
-    text-align:center;
+    
 
 }
 .section1 h1 {
@@ -30,12 +30,14 @@ body{
  animation: dropFromTop;
  animation-duration: 1200ms;
  animation-fill-mode: forwards;
+ text-align:center;
 }
 .section1 p {
     transform: translateX(-100vw);
     animation: enterFromLeft;
     animation-duration: 1200ms;
     animation-fill-mode: forwards;
+    text-align:center;
    }
    #an-btn{
     opacity: 0;
