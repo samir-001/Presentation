@@ -25,6 +25,9 @@ body{
     
 
 }
+.section h1 , .section p {
+    text-align: center;
+}
 .section1 h1 {
  transform: translateY(-100vh);
  animation: dropFromTop;
