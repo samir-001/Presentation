@@ -30,15 +30,15 @@ body{
  animation: dropFromTop;
  animation-duration: 1200ms;
  animation-fill-mode: forwards;
- text-align:center;
+ text-align: center;
 }
 .section1 p {
     transform: translateX(-100vw);
     animation: enterFromLeft;
     animation-duration: 1200ms;
     animation-fill-mode: forwards;
-    text-align:center;
-   }
+    text-align: center;
+}
    #an-btn{
     opacity: 0;
     width: 200px;
