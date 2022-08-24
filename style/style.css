@@ -1,0 +1,92 @@
+
+*{
+    margin:0 0 1rem 0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: white;
+}
+body{
+    overflow: hidden;
+}
+
+:root{
+    --primary-color:#90B77D;
+    --secondary-color:#42855B;
+}
+
+.section{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+
+}
+.section1 h1 {
+ transform: translateY(-100vh);
+ animation: dropFromTop;
+ animation-duration: 1200ms;
+ animation-fill-mode: forwards;
+}
+.section1 p {
+    transform: translateX(-100vw);
+    animation: enterFromLeft;
+    animation-duration: 1200ms;
+    animation-fill-mode: forwards;
+   }
+   #an-btn{
+    opacity: 0;
+    width: 200px;
+    transform: scaleX(0);
+    animation: maxmizing;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    
+   }
+p{
+    width:80%
+    
+}
+
+body .section2 ,body .section4 {
+    background-color:#42855B;
+}
+body .section1 ,body .section3 {
+    background-color:#90B77D ;
+}
+.btn-group{
+    margin-top:1rem;
+}
+a{    
+    padding: .5rem 1rem;
+    text-decoration: none;
+    background-color: #D2D79F;
+    color:#483838 ;
+    margin-left: .5rem;
+    border-radius: 5px;
+
+}
+a:hover{    
+    background-color: #483838 ;
+    color: white;
+}
+
+@keyframes dropFromTop {
+    to{
+        transform: translateY(0);
+    }
+}
+@keyframes enterFromLeft {
+    to{
+        transform: translateX(0);
+    }
+    
+}
+@keyframes maxmizing {
+    to{
+        opacity: 1;
+    }
+    
+}
